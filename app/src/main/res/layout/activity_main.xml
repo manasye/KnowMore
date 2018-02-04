@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/black">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <ImageView
+               android:layout_marginTop="30dp"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/logo3"
+               android:gravity="center"/>
+
+           <TextView
+               android:layout_marginTop="32dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Enter Your Name"
+               android:textColor="#fff"
+               android:textSize="24dp"
+               android:fontFamily="serif-monospace"
+               android:gravity="center"/>
+
+           <EditText
+               android:id="@+id/name"
+               android:layout_marginTop="32dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Name"
+               android:fontFamily="serif-monospace"
+               android:gravity="center"
+               android:textColor="#fff"
+               android:textColorHint="#757575"
+               android:textCursorDrawable="@null"/>
+
+           <Button
+               android:id="@+id/playButton"
+               android:layout_marginTop="32dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Play"
+               android:fontFamily="serif-monospace"
+               android:textColor="#fff"
+               android:layout_gravity="center"
+               android:background="@drawable/mybutton"/>
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>
