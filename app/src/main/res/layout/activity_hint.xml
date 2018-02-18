@@ -14,7 +14,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_width="match_parent"
@@ -23,44 +23,76 @@
                 android:gravity="center"/>
 
             <TextView
-                android:id="@+id/name"
-                android:layout_marginTop="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Manasye"
+                android:text="In this game,you will be assigned with 10 questions about nation with 10 points each"
                 android:textColor="#fff"
-                android:textSize="24dp"
+                android:textSize="16dp"
                 android:fontFamily="serif-monospace"
                 android:gravity="center"/>
 
-            <TextView
-                android:id="@+id/score"
-                android:layout_marginTop="32dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="serif-monospace"
-                android:gravity="center"
-                android:text="Score: 0"
-                android:textSize="24dp"
-                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/analysis"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="If your total score below 40,your score will turn red"
+                android:textSize="18dp"
+                android:textColor="#D50000" />
+
+            <TextView
+                android:id="@+id/analysis"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="If your total score below around 40-80,your score will turn orange"
+                android:textSize="18dp"
+                android:textColor="#F57C00" />
+
+            <TextView
+                android:id="@+id/analysis"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="If your total score above 80,your score will turn green"
+                android:textSize="18dp"
+                android:textColor="#33691E" />
+
+            <TextView
+                android:id="@+id/analysis"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_marginTop="32dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif-monospace"
                 android:gravity="center"
-                android:text=""
+                android:text="Good luck people!!"
                 android:textSize="24dp"
-                android:textColor="#1E88E5" />
+                android:textColor="#1976D2" />
 
             <Button
                 android:id="@+id/newGame"
                 android:layout_marginTop="32dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Game"
+                android:text="Back"
                 android:fontFamily="serif-monospace"
                 android:textColor="#fff"
                 android:layout_gravity="center"

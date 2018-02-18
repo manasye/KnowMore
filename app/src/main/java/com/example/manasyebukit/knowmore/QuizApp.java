@@ -2,6 +2,7 @@ package com.example.manasyebukit.knowmore;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,6 +38,8 @@ public class QuizApp extends AppCompatActivity {
         button3 = findViewById(R.id.choiceC);
         button4 = findViewById(R.id.choiceD);
         quitBtn = findViewById(R.id.quitBtn);
+
+
 
         updateQuestion();
 
@@ -128,7 +131,7 @@ public class QuizApp extends AppCompatActivity {
 
     private void updateQuestion(){
 
-        if(myQuestionNum == 9){
+        if(myQuestionNum == 10){
             Intent intent2 = new Intent(QuizApp.this,Result.class);
             intent2.putExtra("name",name);
             intent2.putExtra("score",score);
@@ -152,7 +155,7 @@ public class QuizApp extends AppCompatActivity {
         if(point > 3){
             myScore.setTextColor(Color.parseColor("#F57C00"));
         }
-        if(point >= 7){
+        if(point > 7){
             myScore.setTextColor(Color.parseColor("#33691E"));
         }
         myScore.setText("" + point*10);

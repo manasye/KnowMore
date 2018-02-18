@@ -4,7 +4,6 @@ public class QuestionLibrary {
 
     private String myQuestion [] = {
 
-//            "What country has the seconnd largest population in the world?",
             "In what country would you find the cities Glasgow and Edinburgh?",
             "What country has a maple leaf on their national flag?",
             "What country is home to the Great Barrier Reef?",
@@ -13,13 +12,13 @@ public class QuestionLibrary {
             "In what country is the Yangtze River found?",
             "In what country was Nelson Mandela born?",
             "Adidas and Volkswagen are companies from what country?",
-            "Leonardo da Vinci was born in what country?"
+            "Leonardo da Vinci was born in what country?",
+            "What country has the seconnd largest population in the world?",
 
     };
 
     private String myChoices [][] = {
 
-//            {"India","China","Indonesia","Americ"}
             {"Canada","America","Scotland","Germany"},
             {"France","Switzerland","Egypt","Canada"},
             {"Australia","China","Malaysia","Brazil"},
@@ -28,12 +27,13 @@ public class QuestionLibrary {
             {"China","America","Thailand","Vietnam"},
             {"Zimbabwe","South Africa","India","Brazil"},
             {"Germany","Netherland","France","Italy"},
-            {"Italy","France","Britain","Spain"}
+            {"Italy","France","Britain","Spain"},
+            {"India","China","Indonesia","America"}
 
     };
 
     private String myCorrectAns[] = {
-//            "India",
+
             "Scotland",
             "Canada",
             "Australia",
@@ -43,6 +43,7 @@ public class QuestionLibrary {
             "South Africa",
             "Germany",
             "Italy",
+            "India"
     };
 
     public String getQuestion(int a){

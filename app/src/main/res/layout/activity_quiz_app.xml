@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:text="Quit"
                 android:fontFamily="serif-monospace"
-                android:background="#311B92"
+                android:background="@drawable/myquitbtn"
                 android:textColor="#fff"
                 android:gravity="center"
                 android:layout_gravity="center"/>
